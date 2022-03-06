@@ -14,7 +14,7 @@ public class FirestoreDBInitializer {
     public void initialize(){
         try{
 
-            FileInputStream serviceAccount =  new FileInputStream("C:/Users/hakee/ProgrammingWork/Firebase/");
+            FileInputStream serviceAccount =  new FileInputStream("./pharmacy-springboot-firebase-adminsdk-lb9it-66300f45c5.json");
             FirebaseOptions options = FirebaseOptions.builder()
                     .setCredentials(GoogleCredentials.fromStream(serviceAccount))
                     .build();

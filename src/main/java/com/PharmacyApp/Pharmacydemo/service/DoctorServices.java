@@ -67,8 +67,3 @@ public class DoctorServices {
     }
 
 }
-//    Firestore  dbFirestore = FirestoreClient.getFirestore();
-//    ApiFuture<WriteResult> collectionApiFuture = dbFirestore.collection(COL_NAME)
-//            .document(doctor.getFirstName()).set(doctor);
-//
-//            return collectionApiFuture.get().getUpdateTime().toString();
